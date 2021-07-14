@@ -1,6 +1,6 @@
-# Dask Video Tutorial 2020
+# Dask Video Tutorial
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jacobtomlinson/dask-video-tutorial-2020/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jacobtomlinson/dask-video-tutorial/master?urlpath=lab)
 
 Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
 
