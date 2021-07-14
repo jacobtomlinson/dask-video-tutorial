@@ -6,23 +6,23 @@
           "type": "split-area",
           "orientation": "horizontal",
           "sizes": [
-            0.739760554505356,
-            0.260239445494644
+            0.7954098360655738,
+            0.20459016393442622
           ],
           "children": [
             {
               "type": "split-area",
               "orientation": "vertical",
               "sizes": [
-                0.7754901960784314,
-                0.22450980392156863
+                0.8196078431372549,
+                0.1803921568627451
               ],
               "children": [
                 {
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "markdownviewer-widget:README.md"
+                    "notebook:01-Intro.ipynb"
                   ]
                 },
                 {
@@ -38,48 +38,24 @@
               "type": "split-area",
               "orientation": "vertical",
               "sizes": [
-                0.25,
-                0.25,
-                0.25,
-                0.25
+                0.23364233640160892,
+                0.23265223739170793,
+                0.29803841468131187,
+                0.23566701152537128
               ],
               "children": [
                 {
-                  "type": "split-area",
-                  "orientation": "horizontal",
-                  "sizes": [
-                    0.5,
-                    0.5
-                  ],
-                  "children": [
-                    {
-                      "type": "tab-area",
-                      "currentIndex": 0,
-                      "widgets": [
-                        "dask-dashboard-launcher:/individual-cpu"
-                      ]
-                    },
-                    {
-                      "type": "tab-area",
-                      "currentIndex": 0,
-                      "widgets": [
-                        "dask-dashboard-launcher:/individual-workers-memory"
-                      ]
-                    }
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "dask-dashboard-launcher:/individual-cpu"
                   ]
                 },
                 {
                   "type": "tab-area",
                   "currentIndex": 0,
                   "widgets": [
-                    "dask-dashboard-launcher:/individual-nprocessing"
-                  ]
-                },
-                {
-                  "type": "tab-area",
-                  "currentIndex": 0,
-                  "widgets": [
-                    "dask-dashboard-launcher:/statics/individual-cluster-map.html"
+                    "dask-dashboard-launcher:/individual-workers-memory"
                   ]
                 },
                 {
@@ -88,12 +64,23 @@
                   "widgets": [
                     "dask-dashboard-launcher:/individual-progress"
                   ]
+                },
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "dask-dashboard-launcher:/statics/individual-cluster-map.html"
+                  ]
                 }
               ]
             }
           ]
         },
-        "current": "markdownviewer-widget:README.md"
+        "current": "notebook:01-Intro.ipynb"
+      },
+      "down": {
+        "size": 0,
+        "widgets": []
       },
       "left": {
         "collapsed": false,
@@ -111,31 +98,18 @@
         "widgets": [
           "jp-property-inspector"
         ]
-      }
+      },
+      "relativeSizes": [
+        0.16891527253103075,
+        0.8310847274689692,
+        0
+      ]
     },
-    "dask-dashboard-launcher": {
-      "url": "https://hub.gke2.mybinder.org/user/jacobtomlinson--o-tutorial-2020-hv7evjvp/proxy/8787/",
-      "cluster": ""
-    },
-    "dask-dashboard-launcher:/individual-progress": {
+    "dask-dashboard-launcher:/individual-cpu": {
       "data": {
-        "route": "/individual-progress",
-        "label": "Progress",
-        "key": "Progress"
-      }
-    },
-    "dask-dashboard-launcher:/individual-nprocessing": {
-      "data": {
-        "route": "/individual-nprocessing",
-        "label": "Nprocessing",
-        "key": "Nprocessing"
-      }
-    },
-    "dask-dashboard-launcher:/individual-task-stream": {
-      "data": {
-        "route": "/individual-task-stream",
-        "label": "Task Stream",
-        "key": "Task Stream"
+        "route": "/individual-cpu",
+        "label": "Cpu",
+        "key": "Cpu"
       }
     },
     "dask-dashboard-launcher:/individual-workers-memory": {
@@ -145,6 +119,13 @@
         "key": "Workers Memory"
       }
     },
+    "dask-dashboard-launcher:/individual-progress": {
+      "data": {
+        "route": "/individual-progress",
+        "label": "Progress",
+        "key": "Progress"
+      }
+    },
     "dask-dashboard-launcher:/statics/individual-cluster-map.html": {
       "data": {
         "route": "/statics/individual-cluster-map.html",
@@ -152,23 +133,27 @@
         "key": "Cluster Map"
       }
     },
-    "dask-dashboard-launcher:/individual-cpu": {
+    "dask-dashboard-launcher:/individual-task-stream": {
       "data": {
-        "route": "/individual-cpu",
-        "label": "Cpu",
-        "key": "Cpu"
+        "route": "/individual-task-stream",
+        "label": "Task Stream",
+        "key": "Task Stream"
       }
     },
-    "markdownviewer-widget:README.md": {
+    "dask-dashboard-launcher": {
+      "url": "DASK_DASHBOARD_URL",
+      "cluster": ""
+    },
+    "notebook:01-Intro.ipynb": {
       "data": {
-        "path": "README.md",
-        "factory": "Markdown Preview"
+        "path": "01-Intro.ipynb",
+        "factory": "Notebook"
       }
     }
   },
   "metadata": {
-    "id": "/lab/workspaces/tutorial",
-    "last_modified": "2021-07-13T10:46:59.398137+00:00",
-    "created": "2021-07-13T10:46:59.398137+00:00"
+    "id": "dask-tutorial",
+    "last_modified": "2021-07-14T11:11:56.985426+00:00",
+    "created": "2021-07-14T11:11:56.985426+00:00"
   }
 }
