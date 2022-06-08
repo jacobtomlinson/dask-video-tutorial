@@ -102,3 +102,18 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Binder bash environment
+.bash_logout
+.bashrc
+.conda/
+.config/
+.jupyter-server-log.txt
+.jupyter/
+.local/
+.npm/
+.profile
+.ipython/
+dask-worker-space/
+mydask.png
+ipa-0.csv
