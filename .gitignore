@@ -117,3 +117,4 @@ venv.bak/
 dask-worker-space/
 mydask.png
 ipa-0.csv
+.gitconfig
