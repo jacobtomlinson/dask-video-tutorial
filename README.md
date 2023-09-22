@@ -1,10 +1,27 @@
 # Dask Video Tutorial
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jacobtomlinson/dask-video-tutorial/main?urlpath=lab)
-
 Dask provides advanced parallelism for analytics, enabling performance at scale for the tools you love.
 
 In this 90 minute tutorial we will cover an overview of Dask including dataframes, arrays, machine learning and distributed scheduling.
+
+### Install and run this tutorial
+
+```bash
+# Clone the repo
+git clone https://github.com/jacobtomlinson/dask-video-tutorial.git
+
+# Go to the repo directory
+cd dask-video-tutorial
+
+# Create a new Python environment
+# ...
+
+# Install the dependencies
+pip install dask[complete] dask-ml jupyterlab dask-labextension ipycytoscape
+
+# Start Jupyter Lab
+jupyter lab
+```
 
 ### Schedule
 
