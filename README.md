@@ -13,8 +13,10 @@ git clone https://github.com/jacobtomlinson/dask-video-tutorial.git
 # Go to the repo directory
 cd dask-video-tutorial
 
-# Create a new Python environment
-# ...
+# Create a new Python environment however you prefer
+# e.g
+# python -m venv dask-tutorial
+# source dask-tutorial/bin/activate
 
 # Install the dependencies
 pip install dask[complete] dask-ml jupyterlab dask-labextension ipycytoscape
